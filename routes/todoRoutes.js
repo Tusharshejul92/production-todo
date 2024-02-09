@@ -4,7 +4,7 @@ const router = require("express").Router()
 
 router
     .get("/", getTodo)
-    .post("/create-todo", addTodo)
+    .post("/add-todo", addTodo)
     .put("/update-todo/:id", updateTodo)
     .delete("/delete-todo/:id", deleteTodo)
 
